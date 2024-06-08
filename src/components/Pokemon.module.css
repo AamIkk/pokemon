@@ -1,0 +1,32 @@
+.pokemonList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pokemonItem {
+    text-align: center;
+    background-color: #3498db; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
+  }
+  
+  .pokemonItem:hover {
+    background-color: #2980b9;
+  }
+  
+  .pokemonImage {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemonName {
+    font-weight: bold;
+    color: #fff;
+  }
+  
